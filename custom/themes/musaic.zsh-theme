@@ -113,7 +113,7 @@ function git_time_since_commit() {
 }
 
 PROMPT='
-%{%F{yellow}%}%S%}%M %{%s%F{cyan}%S%}%3~ %{%s%f%}%{%F{grey}%S%}%D{%F %X}%{%f%s%}
+%{%F{yellow}%}%S%}%M %{%s%F{cyan}%S%}%3~ %{%s%f%}%{%F{grey}%S%}%D{%X}%{%f%s%}
 $(vcsh_status)$(git_time_since_commit)[$(git_prompt_info)]$user_status $(prompt_char) '
 
 
